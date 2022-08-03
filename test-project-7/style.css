@@ -1,0 +1,947 @@
+*{ padding: 0 0; margin:0; font-family: "Poppins",Arial,sans-serif; box-sizing: border-box; }
+header{
+	width: 100%;
+	height: 5vh;
+	position: relative;
+	background-color: dodgerblue;
+}
+body{
+	font-family: "Poppins",Arial,sans-serif;
+	font-size: 17px;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	height: 5rem;
+	background-color: hsla(0, 0%, 100%,0.3);
+}
+.mainheader{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  position:relative
+}
+.mainheader img{
+  opacity: 0.9;
+  width: 100%;
+  z-index: -1;
+}
+.mainhtext{
+  position: absolute;
+  padding-left: 6rem;
+}
+.logo{
+	font-size: 2rem;
+	font-weight: bold;
+	color:#000000;
+  text-decoration: none;
+}
+.menu a{
+	text-decoration: none;
+	font-size: 1rem;
+	color: black;
+	font-weight: bold;
+	padding: 1.4rem 1.4rem;
+}
+
+.button {
+  padding: 0.8rem;
+  color: white;
+  background-color: tomato; 
+  border: none;
+  outline: none;
+  border-radius: 0.6rem; 
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.number{
+  font-size: 0.9rem;
+  color:#FFFFFF;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+}
+.container h4{
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+.container-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 150px;
+  margin-left: 100px;
+}
+
+.Top-text{
+	color: dodgerblue;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: left;
+  margin-top: 2rem;
+}
+.Bottom-text{
+	text-align: left;
+}
+
+.Bottom-text h1{
+	font-size: 3.5rem;
+}
+
+.p-header{
+	margin-top: 1.8rem;
+  color: gray;
+}
+
+.btn {
+  padding: 0.9rem;
+  color: white;
+  background-color:dodgerblue;
+  margin-top: 1.2rem;
+  border: none;
+  outline: none;
+  border-radius: 1.2rem; 
+  cursor: pointer;
+}
+
+
+.about-row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.about-left-col{
+	flex-basis: 50%;
+}
+.about-left-col img{
+	width: 80%;
+}
+.about-right-col{
+	max-width: 30rem;
+  line-height: 2.4rem;
+}
+.about-right-col h1{
+	font-size: 2.5rem;
+	margin-bottom: 1.2rem;
+}
+.about-right-col p{
+	margin:1.1rem 0rem;
+	color: grey;
+}
+
+.about-right-col span{
+	color:#0C9AFD; 
+}
+
+.btn1{
+	padding: 1rem;
+	color: white;
+	background:dodgerblue; 
+	border: none;
+	outline: none;
+	border-radius: 2rem; 
+  font-size: 1rem;
+  margin-top: 1.2rem;
+  cursor: pointer;
+}
+
+.btn2{
+	padding: 1rem;
+	color: white;
+	background:tomato; 
+	border: none;
+	outline: none;
+	border-radius: 2rem; 
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.about2-row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+  position:relative
+}
+
+.about2-row img{
+  width: 100%;
+}
+
+.about2-left-col{
+  position: absolute;
+  text-align: center;
+}
+
+.about2-left-col h1{
+	font-size: 3.9rem;
+	margin-bottom: 1.2rem;
+  color: white;
+}
+.about2-left-col p{
+	margin:1.2rem 0rem;
+	color: white;
+	font-size: 1.6rem;
+
+}
+
+.doctors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+}
+.card {
+    transition: 0.3s;
+    width: 23%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .p-header{
+    color: gray;
+  }
+
+  .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .rank{
+  	padding: 1rem 1rem;
+    color: dodgerblue;
+    font-size: 1.2rem;
+  }
+
+  .Dbutton{
+    border-radius: 1.5rem;
+    color: white;
+    background-color: dodgerblue;
+    border: solid white;
+    padding: 1rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    width: 51%;
+    font-size: 1.2rem;
+  }
+  .Hbutton{
+    border-radius: 1.8rem;
+    color: black;
+    background-color: white;
+    border: solid white;
+    padding: 1rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    width: 22%;
+    font-size: 1.3rem;
+  }
+  
+  
+  .doc-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem 0;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.doc-header p{
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+
+.experience-container{
+  position: absolute;
+  top: 12rem;
+  display: flex;
+  right: 7rem;
+  text-align: center;
+  line-height: 4rem;
+}
+.experience-container1{
+  margin-right: 5rem;
+}
+.experience-container2{
+  margin-right: 5rem;
+}
+
+.lad-text1{
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+.lad-text2{
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+}
+.lad-text{
+  color: white;
+  font-size: 1.5rem;
+}
+.lad-container{
+  position: relative;
+  margin-top: 7.1rem;
+  margin-bottom: 7.1rem;
+}
+.lad-subcontainer{
+  position: absolute;
+  bottom: 17rem;
+  margin-left: 10rem;
+}
+
+.fbtn{
+	padding: 1.3rem;
+	color: white;
+	background-color: tomato; 
+	border: none;
+	outline: none;
+	border-radius: 2rem; 
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.updates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardu {
+    transition: 0.3s;
+    width: 30%;
+  }
+  
+  .cardu:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .containeru {
+    padding: 1.2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 1.5rem;
+  }
+  
+  .cardsu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0rem 3rem;
+  }
+  .descripR{
+  	margin-top: 1.2rem;
+  	color: tomato;
+    text-align: left;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .description{
+    margin-top: 0.7rem;
+    color: grey;
+    text-align: center;
+    line-height: 7rem;
+    font-size: large;
+  }
+  .Ubutton{
+    border-radius: 1.5rem;
+    color: white;
+    background-color: #0C9AFD;
+    border: solid white;
+    padding: 0.7rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    width: 35%;
+    font-size: 1.2rem;
+  }
+  
+  .updates-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.9rem;
+}
+.updates-header p{
+  font-size: 1.3rem;
+  }
+
+.patients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 80px;
+}
+.BlockP{
+    background-color: dodgerblue;
+    width: 100%;
+  }
+.patients-content{
+  position: absolute;
+  top: 6.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pat-header{
+  text-align:center;
+  color: white;"
+}
+.pat-header p{
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+.pat-header h1{
+  font-size: 2.8rem;
+  margin-bottom: 5.3rem;
+  padding: 2rem 0rem;
+}
+.Pcard {
+    transition: 0.3s;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.Pcard1 {
+    transition: 0.3s;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Pcontainer {
+    padding: 1.2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .Pcards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .dotcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+  }
+.dot {
+  cursor: pointer;
+  height: 0.8rem;
+  width: 0.8rem;
+  margin: 0rem 0.1rem;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: white;
+}
+
+  .Pdescription{
+  	margin-top: 1.9rem;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 150%;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+.Pcard img{
+	border-radius: 50%;
+  
+}
+.Pcard1 img{
+  border-radius: 50%;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9rem;
+}
+.contact-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+    text-align: center;
+    font-size: 2rem;
+}
+.contact-header p{
+    font-size: 1.2rem;
+    color: gray;
+    line-height: 1.9rem;
+}
+.Ccard {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   transition: 0.3s;
+   width: 23%;
+  background-color: whitesmoke;
+  }
+.Ccard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.IconC{
+  width: 5.9rem;
+  height: 5.9rem;
+  background: white;
+  margin-top: 3rem;
+  border-radius: 50%;
+}
+.IconC i{
+  color: dodgerblue;
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+  .Ccards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 27rem;
+    padding: 0rem 5rem;
+  }
+
+  .Ccard img{
+  	border-radius: 50%;
+    margin-top: 2.4rem;
+  }
+
+  .container h2{
+    font-size: 1.2rem;
+    margin-top: 2.4rem;
+  }
+  .container p{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  .container a{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .block{
+    height: 33rem;
+    background: rgba(0, 0, 0, 0.05);
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 2rem;
+    margin-right: 6rem;
+  }
+
+ #map{
+  width: 50%;
+  height: 100%;
+  align-items: left;
+ }
+
+.rightBlock{
+  position: absolute;
+  margin-left: 45rem;
+}
+
+.form-group{
+  width: 40%;
+  line-height: 150%;
+  margin-left: 3rem;
+  margin-top: 0.4rem;
+}
+.form-group label{
+  color: gray;
+}
+.form-group input, .form-group textarea{
+  width: 32rem;
+  padding: 0.7rem;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+}
+.textarea{
+  resize: vertical;
+}
+
+.Form-button{
+  border-radius: 1.5rem;
+  color: white;
+  background-color: tomato;
+  border: none;
+  padding: 1.2rem;
+  cursor: pointer;
+  margin-top: 1.2rem;
+  width: 30%;
+  font-size: 1rem;
+  margin-left: 2.7rem;
+}
+
+
+.footer{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.Fimg{
+  opacity: 0.4;
+  width: 100%;
+  margin-top: 7rem;
+ }
+ .Fdisplay{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+ }
+.Box a{
+  text-decoration: none;
+  color: dodgerblue;
+  line-height: 2rem;
+}
+.footerright{
+  display: flex;
+  line-height: 2rem;
+  margin-left: 3.5rem;
+}
+.footerright h2{
+  margin-left: 3rem;
+}
+.Box1{
+  padding-left: 3rem;
+}
+.Box{
+  padding: 2rem;
+}
+.footerbottom{
+  margin-top: 6rem;
+  font-size: 1.2rem;
+}
+.footerbottom span{
+  color: dodgerblue;
+}
+
+.topnav{
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .topnav{
+    display: block;
+    background-color: black;
+  }
+  .topnav a:not(:first-child) {display: none;}
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+  .topnav .active{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: x-large;
+    padding-left: 0.3rem;
+  }
+
+  .topnav .icon{
+    color: white;
+    padding: 0.3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .cards{
+    display: flex;
+    flex-direction: column;
+    margin:0 25px;
+  }
+  .card{
+    width: 100%;
+    margin-top: 50px;
+  }
+  .doc-header{
+    margin: 0 25px;
+    text-align: center;
+  }
+  .mainnav{
+    display: none;
+  } 
+}
+
+@media only screen and (max-width: 600px) {
+  .mainheader{
+    width: 100%;
+  }
+  .mainheader img{
+    height: 40rem;
+    object-fit: cover;
+  }
+
+  
+  .about-left-col img {
+    width: 20rem;
+    margin-top: 2rem;
+  }
+  .about-right-col h1{
+    line-height: 100%;
+    margin-top: 10%;
+  }
+  .about-right-col {
+    line-height: 2.1rem;
+    margin-left: 5%;
+  }
+  .btn1 {
+    width: 90%;
+  }
+  .btn2{
+    width: 90%;
+    margin-top: 1%;
+  }
+  .about2-row img {
+    margin-top: 2rem;
+    height: 20rem;
+    object-fit: cover;
+  }
+  .about2-left-col h1 {
+    font-size: 20px;
+    color: white;
+    margin-top: 15%;
+  }
+  .about2-left-col p {
+    font-size: 15px;
+  }
+  .Hbutton {
+    padding: 8px;
+    width: 20%;
+    font-size: 0.6rem;
+  }
+  .BlockP img{
+    height: 50rem;
+    object-fit: cover;
+  }
+  .lad-subcontainer {
+    top: 10%;
+    right: 5rem;
+  }
+  .lad-text1 {
+    font-size: 1rem;
+  }
+  .lad-text2 {
+    font-size: 1.5rem;
+  }
+  .fbtn {
+    padding: 1rem;
+    font-size: 1rem;
+    width: 25rem;
+  }
+  .experience-container {
+    top: 17rem;
+    flex-direction: column;
+  }
+  .updates-header {
+    font-size: 1.2rem;
+  }
+  .cardsu{
+    display: flex;
+    flex-direction: column;
+  }
+  .cardu{
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .patients{
+    position: relative;
+    margin-top: 5rem;
+  }
+  .patients-content {
+    top: 2.5rem;
+  }
+  .Pcards{
+    display: flex;
+    flex-direction: column;
+    margin:0 1.5rem;
+  }
+  .pat-header h1 {
+    margin-bottom: 2rem;
+  }
+  .Pcard1{
+    margin-top: 0px;
+    width: 40%;
+    margin-left: 30%;
+  }
+  .Pcontainer{
+    padding: 0rem 0rem;
+  }
+  .Pcard{
+    display: none;
+  }
+  .dotcontainer {
+    margin-top: 1.5rem;
+  }
+  .Ccards{
+    flex-direction: column;
+    margin-top: 60%;
+    margin-bottom: 75%;
+    padding: 0rem 2rem;
+  }
+  .Ccard{
+    width: 100%;
+    margin-top: 3rem;
+  }
+  #map {
+    width: 100%;
+  }
+  .rightBlock {
+    margin-left: 0rem; 
+    margin-top: 38rem;
+  }
+  .form-group {
+    line-height: 150%;
+    margin-top: 0.4rem;
+    margin-left: 0rem;
+  }
+  .form-group input, .form-group textarea {
+    width: 25rem;
+  }
+  .Form-button{
+    width: 60%;
+  }
+  .Fdisplay{
+    margin-top: 48rem;
+  }
+  .Fimg {
+    margin-top: 40rem;
+  }
+  .Fimg img{
+    height: 95rem;
+    object-fit: cover;
+  }
+  .Box1 {
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .footerright {
+    display: flex;
+    line-height: 2rem;
+    margin-left: 0rem;
+    flex-direction: column;
+  }
+  .footerbottom {
+    padding: 3rem;
+    text-align: center;
+  }
+  
+}
+@media only screen and (max-width: 412px) {
+  .BlockP img {
+    height: 70rem;
+    object-fit: cover;
+  }
+  .lad-subcontainer {
+    top: 10%;
+    right: 0.1rem;
+  }
+  .experience-container {
+    top: 20rem;
+    flex-direction: column;
+    line-height: 3rem;
+  }
+  .experience-container1 {
+    margin-right: 0rem;
+  }
+  .experience-container2 {
+    margin-right: 0rem;
+  }
+  .Ubutton{
+    width: 10rem;
+  }
+  .block{
+    margin-top: 8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .Fimg img{
+    height: 150rem;
+  }
+  .Fdisplay{
+    margin-top: 4rem;
+  }
+  .form-group input, .form-group textarea {
+    width: 22rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .lad-text1 {
+    margin-left: 3rem;
+  }
+  .lad-text2 {
+    margin-left: 3rem;
+  }
+  .fbtn{
+    width: 22rem;
+  }
+  .form-group input, .form-group textarea {
+    width: 20rem;
+  }
+  .Fimg img {
+    height: 145rem;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .lad-text1 {
+    margin-left: 2rem;
+  }
+  .lad-text2 {
+    margin-left: 2rem;
+  }
+  .fbtn{
+    width: 24rem;
+  }
+}
